@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import Loader from '../Loader'
 
-
+// import {sunny} from "../../assets/sunny.jpg"
 // was gettting some errors, solved using below:
 // npm install --legacy-peer-deps three --force
 
@@ -53,7 +53,8 @@ const ComputersCanvas=()=>{
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     }
   },[])
-  return (<Canvas frameloop="demand"
+  return (
+  <Canvas frameloop="demand"
   shadows
   camera={{position:[20,3,5],fov:25}}
  gl={{preserveDrawingBuffer:true}}>
@@ -63,6 +64,7 @@ const ComputersCanvas=()=>{
     minPolarAngle={Math.PI/2}
   /><Computers isMobile={isMobile}/></Suspense>
   <Preload all/>
-  </Canvas>)
+  </Canvas>
+)
 }
 export default ComputersCanvas;
