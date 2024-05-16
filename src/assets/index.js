@@ -8,19 +8,26 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
+import docker from "./tech/docker.svg";
+import figma from "./tech/figma.svg";
+import git from "./tech/git.svg";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
+import mongodb from "./tech/mongodb.svg";
+import nodejs from "./tech/nodejs.svg";
+import reactjs from "./tech/reactjs.svg";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import tailwind from "./tech/tailwind.svg";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import jira from "./tech/jira.png";
+import jira from "./tech/jira.svg";
+import gradle from "./tech/gradle.png";
+import confluence from "./tech/confluence.svg";
+import ansible from "./tech/ansible.svg";
+import dynatrace from "./tech/dynatrace.png";
+import jenkins from "./tech/jenkins.svg";
+import kubernetes from "./tech/kubernetes.svg";
+import gcp from "./tech/gcp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,5 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
-  jira
+  jira,
+  gradle,
+  confluence,
+  ansible,
+  dynatrace,
+  jenkins,
+  kubernetes,
+  gcp
 };

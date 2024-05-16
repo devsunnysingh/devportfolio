@@ -23,7 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
-    jira
+    jira,
+    gradle,
+    confluence,
+    ansible,
+    dynatrace,
+    jenkins,
+    kubernetes,
+    gcp
+
   } from "../assets";
   
   export const navLinks = [
@@ -42,10 +50,7 @@ import {
   ];
   
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
+    
     {
       title: "React Native Developer",
       icon: mobile,
@@ -62,16 +67,24 @@ import {
   
   const technologies = [
     {
-      name: "Jira",
-      icon: jira,
+      title: "confluence",
+      icon: confluence,
     },
     {
-      name: "HTML 5",
-      icon: html,
+      title: "ansible",
+      icon: ansible,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      title: "jenkins",
+      icon: jenkins,
+    },
+    {
+      title: "kubernetes",
+      icon: kubernetes,
+    },
+    {
+      title: "gcp",
+      icon: gcp,
     },
     {
       name: "JavaScript",
