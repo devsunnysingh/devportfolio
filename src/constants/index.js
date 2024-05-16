@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    jira
   } from "../assets";
   
   export const navLinks = [
@@ -60,6 +61,10 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Jira",
+      icon: jira,
+    },
     {
       name: "HTML 5",
       icon: html,
