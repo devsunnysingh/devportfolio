@@ -134,16 +134,25 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Developer",
+      company_name: "CGI Inc.",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the development and maintenance of banking and finance applications for Scotiabank.",
+"Architected migration from on-premise to GCP infrastructure.",
+"Leveraged Dynatrace for proactive monitoring and bottleneck identification, ensuring optimal system performance.",
+"Contributed to Disaster Recovery (DR) and Business Continuity (DBR) activities to fortify the production environment against disruptions and ensure uninterrupted business operations.",
+"Managed IBM MQ to oversee message queues, ensuring efficient communication and optimal performance.",
+"Updated KSQL streams to enhance message consumption from Kafka Topics, streamlining data processing.",
+"Demonstrated expertise in analyzing end-to-end message flow within Kafka using the Confluent platform.",
+"Established IST and UAT environments for Loyalty Points pipelines, implementing Kerberos authentication for secure connectivity across Microsoft Azure and On-premise Cloud environments.",
+"Utilized Python scripting for log analysis and command generation, enhancing operational efficiency.",
+"Engineered bash scripts for automating data analysis, reducing manual intervention and improving productivity.",
+"Provided support for maintenance activities and swiftly resolved production issues to minimize downtime.",
+"Maintained meticulous documentation using Confluence, ensuring seamless knowledge transfer and continuity.",
+"Technologies used: Confluent Kafka, XML, YAML, JSON, IBM DB2, Java, Spring boot, Python, Confluence, Shell Scripts, Containerization(Docker), Kubernetes, Ansible, GCP, Azure, IBM MQ, PagerDuty, ServiceNow Notify, IBM DB2, Ansible, Mobaxterm, Jenkins"
       ],
     },
     {
