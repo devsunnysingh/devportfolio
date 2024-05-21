@@ -29,6 +29,9 @@ import jenkins from "./tech/jenkins.svg";
 import kubernetes from "./tech/kubernetes.svg";
 import gcp from "./tech/gcp.png";
 
+
+import tcs from "./company/tcs.png";
+import cgi from "./company/cgi.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -60,6 +63,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  cgi,
+  tcs,
   meta,
   shopify,
   starbucks,

@@ -37,7 +37,12 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip 
+    <section>
+    Dynamic Software Engineer with 3+ years of experience specializing in Capital markets, banking, and finance sector technologies. Proven track record in enhancing operational efficiency through innovative <b>Cloud and DevOps tools</b>, technologies & object-oriented programming.
+    </section>
+    <section>
+      I also write tech articles, like reading books on improving code quality and building architecture. And, in free time, I play my music instrument.
+    </section>
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
     {services.map((service,index)=>(

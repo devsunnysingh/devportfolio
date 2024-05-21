@@ -16,7 +16,8 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    cgi,
+    tcs,
     tesla,
     shopify,
     carrent,
@@ -52,17 +53,21 @@ import {
   const services = [
     
     {
-      title: "React Native Developer",
+      title: "DevOps Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Cloud Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "SRE",
       icon: creator,
     },
+    {
+      title: "Tech writer",
+      icon: web,
+    }
   ];
   
   const technologies = [
@@ -136,7 +141,7 @@ import {
     {
       title: "Software Developer",
       company_name: "CGI Inc.",
-      icon: starbucks,
+      icon: cgi,
       iconBg: "#383E56",
       date: "January 2020 - Present",
       points: [
@@ -156,71 +161,44 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "System Administrator",
+      company_name: "TCS",
+      icon: tcs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2020 - Dec 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+"        Re-engineered company’s systems setup, establishing automated server generation routines, optimizing system performance, installing upgrades/patches, establishing system monitoring, and maintaining security protocols.",
+"Ensured that all server hardware, operating systems, software, and procedures aligned with organizational standards and strategic business plan. ",
+"Increased team productivity and automated repetitive tasks by using batch files, PowerShell, VBScript and WMI. ",
+"Acted as escalation point for troubleshooting advanced network/systems issues; consistently earned 100% issue-resolution scores by providing excellent service to internal and external customers.",
+"Patched and updated more than 1000 Windows Servers using SCCM and kept them up to date using on a biweekly basis.",
+"Created Python scripts to analyze the number of servers getting constant updates and patches and the ones which are lagging and visualizing them.",
+"Worked in agile and stressful situations and updated 200 servers using Shell scripts."
+
       ],
     },
   ];
   
   const testimonials = [
+    
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Always there to help me and explain the system design without any hesitation with analogies.",
+      name: "Shruti Dua",
+      designation: "Project Lead",
+      company: "Scotiabank",
+      image: "",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Energectic Team player. It was great working with him because of his Enthuasiastic and always ready to learn nature",
+      name: "Nitesh Kumar",
+      designation: "System Analyst",
+      company: "TCS",
+      image: "",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
+    
   ];
   
   const projects = [
