@@ -38,7 +38,7 @@ const About = () => {
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
     <section>
-    Dynamic Software Engineer with 3+ years of experience specializing in Capital markets, banking, and finance sector technologies. Proven track record in enhancing operational efficiency through innovative <b>Cloud and DevOps tools</b>, technologies & object-oriented programming.
+    Dynamic Software Engineer with 3+ years of experience specializing in Capital markets, banking, and finance sector technologies. Proven track record in enhancing operational efficiency through innovative <b>Backend and Fullstack </b>, technologies & object-oriented programming.
     </section>
     <section>
       I also write tech articles, like reading books on improving code quality and building architecture. And, in free time, I play my music instrument.
